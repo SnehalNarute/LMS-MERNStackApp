@@ -118,23 +118,23 @@ main {
 	width: 150px;
 	height: 150px;
 }
-.userimage{
-    width: 150px;
-    height: 150px;
+.userimage {
+	width: 150px;
+	height: 150px;
 }
-.profile-first-row{
+.profile-first-row {
 	margin-left: 45%;
 	margin-top: 100px;
 }
-.profile-other-row{
+.profile-other-row {
 	margin-top: 50px;
 	margin-left: 35%;
 }
-.col-lg-3{
+.col-lg-3 {
 	width: 35%;
 }
 /* error */
-.error{
+.error {
 	display: inline-block;
 	color: rgb(224, 4, 4);
 	font-size: smaller;
@@ -142,7 +142,7 @@ main {
 }
 /* upload button */
 .upload-btn {
-    position: relative;
+	position: relative;
 	top: 20px;
 }
 /* profile page */
@@ -151,16 +151,16 @@ main {
 	display: flex;
 	align-items: center;
 	padding: 20px;
-  }
-  .profileContainer {
+}
+.profileContainer {
 	display: flex;
 	margin: 20px;
-  }
-  @media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 768px) {
 	.profileContainer {
-	  flex-direction: column-reverse;
+		flex-direction: column-reverse;
 	}
-  }
+}
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	.about-section-h1 {
