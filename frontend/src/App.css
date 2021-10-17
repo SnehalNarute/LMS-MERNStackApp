@@ -1,0 +1,258 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/* NAVBAR */
+.navbar {
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+}
+.navbar-nav .nav-link {
+	text-transform: uppercase;
+}
+a {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	text-transform: none;
+}
+.signup {
+	letter-spacing: 1px;
+}
+.navbar {
+	text-transform: none;
+}
+/* Homepage */
+.main {
+	background: #dbedf7;
+}
+.btn {
+	text-transform: none;
+}
+.cta {
+	color: #fff;
+	font-size: 1rem;
+	letter-spacing: 1px;
+}
+.cta:hover {
+	color: #fff;
+}
+.ctabutton {
+	border-radius: 4px;
+}
+main {
+	min-height: 80vh;
+}
+.h1-main {
+	text-transform: uppercase;
+}
+/* About us section */
+.about-col {
+	margin-right: auto;
+}
+.h1-about {
+	text-transform: none;
+}
+.h3-course {
+	letter-spacing: 0.7px;
+}
+.about-col {
+	width: 320px;
+}
+.course-p {
+	width: 250px;
+}
+.button2 {
+	color: #fff;
+}
+.button2:hover {
+	color: #4bbf73;
+}
+.about-bg .button {
+	border-radius: 50px;
+}
+.about-bg {
+	border-radius: 25px;
+}
+.about-container {
+	background: #55595c;
+}
+/* rating */
+.h3 {
+	padding: 0.8rem 0;
+}
+.rating span {
+	margin: 0.08rem;
+}
+.rounded {
+	background: #f8ffff;
+}
+/* form */
+.form {
+	margin: 0% 20%;
+	width: 600px;
+}
+.h3-login-signup {
+	padding: 2rem 0 2rem 13rem;
+	text-transform: uppercase;
+}
+.signup-login-container {
+	margin-bottom: 4rem;
+}
+/* profile */
+.profile-container {
+	margin-bottom: 5rem;
+}
+.h2-name,
+.h2-profession {
+	letter-spacing: 0.5px;
+}
+.rounded-profile {
+	padding-left: 0rem;
+	width: 150px;
+	height: 150px;
+}
+.userimage{
+    width: 150px;
+    height: 150px;
+}
+.profile-first-row{
+	margin-left: 45%;
+	margin-top: 100px;
+}
+.profile-other-row{
+	margin-top: 50px;
+	margin-left: 35%;
+}
+.col-lg-3{
+	width: 35%;
+}
+/* error */
+.error{
+	display: inline-block;
+	color: rgb(224, 4, 4);
+	font-size: smaller;
+	padding-left: 0.5rem;
+}
+/* upload button */
+.upload-btn {
+    position: relative;
+	top: 20px;
+}
+/* profile page */
+.profilePic {
+	width: 60%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+  }
+  .profileContainer {
+	display: flex;
+	margin: 20px;
+  }
+  @media only screen and (max-width: 768px) {
+	.profileContainer {
+	  flex-direction: column-reverse;
+	}
+  }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.about-section-h1 {
+		font-size: 1.4rem;
+		margin-right: 1rem;
+	}
+	.about-bg {
+		padding: 2rem;
+	}
+	.about-bg .button {
+		margin-left: 1rem;
+		padding: 0.5rem 1rem;
+	}
+	.form {
+		margin: 0% 20%;
+		width: 500px;
+	}
+}
+
+@media screen and (min-width: 575px) and (max-width: 768px) {
+	.about-section-h1 {
+		font-size: 1rem;
+		margin-right: 0.8rem;
+	}
+	.about-bg {
+		padding: 1.8rem;
+	}
+	.about-bg .button {
+		font-size: 0.7rem;
+		padding: 0.3rem 0.5rem;
+		margin-left: 0.8rem;
+	}
+	.form {
+		margin: 0% 20%;
+		width: 350px;
+	}
+}
+@media screen and (min-width: 300px) and (max-width: 575px) {
+	.about-bg {
+		flex-direction: column;
+	}
+	.about-section-h1 {
+		padding: 0;
+		font-size: 1.3rem;
+		margin: 1.3rem 0 1rem 0;
+	}
+	.about-bg .button {
+		margin: 0.8rem 0;
+	}
+	.h3-course {
+		font-size: 1.2rem;
+	}
+	.course-p {
+		font-size: 1rem;
+	}
+	.h1-about {
+		font-size: 1.3rem;
+	}
+	.form {
+		margin: 0% 5%;
+		width: 280px;
+	}
+	.h3-login-signup {
+		padding: 2rem 0 2rem 5rem;
+	}
+}
+@media screen and (max-width: 300px) {
+	.about-bg {
+		flex-direction: column;
+	}
+	.about-section-h1 {
+		padding: 0;
+		font-size: 1.3rem;
+		margin: 1.3rem 0 1rem 0;
+	}
+	.about-bg .button {
+		margin: 0.8rem 0;
+	}
+	.h3-course {
+		font-size: 1.2rem;
+	}
+	.course-p {
+		font-size: 1rem;
+	}
+	.h1-about {
+		font-size: 1.3rem;
+	}
+	.form {
+		margin: 0% 0%;
+		width: 260px;
+	}
+	.h3-login-signup {
+		padding: 2rem 0 2rem 5rem;
+	}
+}
